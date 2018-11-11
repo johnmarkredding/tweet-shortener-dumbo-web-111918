@@ -1,7 +1,8 @@
 # Write your code here.
 
 def word_substituter(str)
-  short_hash = {"hello" => 'hi',
+  short_hash = {
+    "hello" => 'hi',
     "to, two, too" => '2',
     "for, four" => '4',
     'be' => 'b',
@@ -9,7 +10,9 @@ def word_substituter(str)
     "at" => "@" ,
     "and" => "&"
   }
-str.include?
+  short_hash.collect {
+    str.include?
+  }
 end
 
 def bulk_tweet_shortener()
