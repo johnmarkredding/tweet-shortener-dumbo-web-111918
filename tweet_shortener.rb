@@ -4,13 +4,13 @@ def word_substituter()
   
 end
 
-def bulk_tweet_shortener
+def bulk_tweet_shortener()
 end
 
-def selective_tweet_shortener
+def selective_tweet_shortener()
 end
 
-def shortened_tweet_truncator
+def shortened_tweet_truncator()
 end
 short_hash = {"hello" => 'hi',
 "to, two, too" => '2',
