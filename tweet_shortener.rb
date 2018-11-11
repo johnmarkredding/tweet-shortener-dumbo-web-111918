@@ -14,7 +14,7 @@ def word_substituter(str)
     "and" => "&"
   }
   short_hash.each {|k,v|
-    str.sub!(k,v)
+    str.gsub!(k,v)
   }
   str
 end
