@@ -7,7 +7,8 @@ def word_substituter(str)
     'be' => 'b',
     'you' => 'u',
     "at" => "@" ,
-    "and" => "&" }
+    "and" => "&"
+  }
 str.include?
 end
 
