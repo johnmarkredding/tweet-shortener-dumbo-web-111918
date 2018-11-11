@@ -11,9 +11,9 @@ def word_substituter(str)
     "and" => "&"
   }
   short_hash.each {|k,v|
-    str.include?(k)
-    str.
+    str.sub!()
   }
+  str
 end
 
 def bulk_tweet_shortener()
