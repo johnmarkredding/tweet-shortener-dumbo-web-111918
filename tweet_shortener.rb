@@ -3,7 +3,7 @@
 def word_substituter(str)
   short_hash = {
     "hello" => 'hi',
-    "to" => '2'
+    "to" => '2',
     "two" => '2',
     "too" => '2',
     "for" => '4',
