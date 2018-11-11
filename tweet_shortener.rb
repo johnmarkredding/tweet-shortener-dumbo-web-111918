@@ -33,12 +33,6 @@ def selective_tweet_shortener(tweet)
   tweet
 end
 
-def shortened_tweet_truncator()
+def shortened_tweet_truncator(tweet)
+  
 end
-short_hash = {"hello" => 'hi',
-"to, two, too" => '2',
-"for, four" => '4',
-'be' => 'b',
-'you' => 'u',
-"at" => "@" ,
-"and" => "&" }
