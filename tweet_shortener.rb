@@ -12,6 +12,7 @@ def word_substituter(str)
   }
   short_hash.collect {|k,v|
     str.include?(k)
+    str.
   }
 end
 
