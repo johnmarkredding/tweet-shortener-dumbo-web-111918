@@ -10,7 +10,7 @@ end
 def selective_tweet_shortener
 end
 
-def bulk_tweet_shortener
+def shortened_tweet_truncator
 end
 short_hash = {"hello" => 'hi',
 "to, two, too" => '2',
