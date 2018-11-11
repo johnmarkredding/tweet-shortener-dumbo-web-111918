@@ -13,9 +13,10 @@ def word_substituter(str)
     "at" => "@" ,
     "and" => "&"
   }
-  short_hash.each {|k,v|
-    str.gsub!(k,v)
-  }
+  str.gsub!("",short_hash)
+  #short_hash.each {|k,v|
+  #  str.gsub!(k,v)
+  #}
   str
 end
 
