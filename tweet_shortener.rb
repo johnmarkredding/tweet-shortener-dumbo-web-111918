@@ -10,7 +10,7 @@ def word_substituter(str)
     "at" => "@" ,
     "and" => "&"
   }
-  short_hash.collect {|k,v|
+  short_hash.each {|k,v|
     str.include?(k)
     str.
   }
